@@ -13,7 +13,7 @@ hats = soup.find_all("li", class_ = 'item last')
 
 def price_finder():
     """
-    Webscraper that scrapes baitme.com and lists out product name, color and prices of hats. Loops every hour.
+    Webscraper that scrapes baitme.com and lists out product name, color and prices of hats.
     """
     for hat in hats:
      # Sorts through HTML Tags and creates variables corresponding from search.
